@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear_layoout_berita1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageV1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/test"/>
+            <TextView
+                android:id="@+id/tanggal_berita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rabu , 23 Jun 2019 09:24 AM"/>
+            <TextView
+                android:id="@+id/tv_isi_berita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Isi_berita"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageV2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/button_margin"
+                android:src="@drawable/test"/>
+            <TextView
+                android:id="@+id/tanggal_berita2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selasa , 22 Jun 2019 11:24 AM"/>
+            <TextView
+                android:id="@+id/tv_isi_berita2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Isi_berita"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageV3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/button_margin"
+                android:src="@drawable/test"/>
+            <TextView
+                android:id="@+id/tanggal_berita3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minggu , 21 Jun 2019 10:24 AM"/>
+            <TextView
+                android:id="@+id/tv_isi_berita3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Isi_berita"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageV4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/button_margin"
+                android:src="@drawable/test"/>
+            <TextView
+                android:id="@+id/tanggal_berita4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sabtu , 20 Jun 2019 07:24 AM"/>
+            <TextView
+                android:id="@+id/tv_isi_berita4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Isi_berita"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
